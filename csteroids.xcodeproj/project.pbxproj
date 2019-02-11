@@ -14,6 +14,7 @@
 		74F93224220DAD94008FF639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F93222220DAD94008FF639 /* LaunchScreen.storyboard */; };
 		74F93227220DAD94008FF639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F93226220DAD94008FF639 /* main.m */; };
 		74F9322F220DADAA008FF639 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F9322E220DADAA008FF639 /* GameView.m */; };
+		74F93231220DC003008FF639 /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F93230220DC003008FF639 /* spaceship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		74F93226220DAD94008FF639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74F9322D220DADAA008FF639 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		74F9322E220DADAA008FF639 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		74F93230220DC003008FF639 /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = Graphics/spaceship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		74F93216220DAD93008FF639 /* csteroids */ = {
 			isa = PBXGroup;
 			children = (
+				74F93230220DC003008FF639 /* spaceship.png */,
 				74F93217220DAD93008FF639 /* AppDelegate.h */,
 				74F93218220DAD93008FF639 /* AppDelegate.m */,
 				74F9321A220DAD93008FF639 /* ViewController.h */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F93231220DC003008FF639 /* spaceship.png in Resources */,
 				74F93224220DAD94008FF639 /* LaunchScreen.storyboard in Resources */,
 				74F93221220DAD94008FF639 /* Assets.xcassets in Resources */,
 				74F9321F220DAD93008FF639 /* Main.storyboard in Resources */,

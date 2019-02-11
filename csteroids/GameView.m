@@ -24,11 +24,12 @@
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        ship = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 50, 20)];
-        [ship setBackgroundColor:[UIColor redColor]];
+        ship = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+        [ship setImage:[UIImage imageNamed:@"spaceship.png"]];
+        //[ship setBackgroundColor:[UIColor redColor]];
         [self addSubview:ship];
         
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:.5 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:.1 repeats:YES block:^(NSTimer * _Nonnull timer) {
             [self performSelectorOnMainThread:@selector(tick:) withObject:self.timer waitUntilDone:NO];
         }];
     }
