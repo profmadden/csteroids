@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7403E358221A3F080048F0D8 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7403E357221A3F080048F0D8 /* SplashViewController.m */; };
 		74ABBBF1221A3155003BADEB /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 74ABBBF0221A3155003BADEB /* ship.png */; };
 		74ABBBF4221A33AB003BADEB /* Boulder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ABBBF3221A33AB003BADEB /* Boulder.m */; };
 		74ABBBF6221A36B1003BADEB /* boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = 74ABBBF5221A36B1003BADEB /* boulder.png */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7403E356221A3F080048F0D8 /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		7403E357221A3F080048F0D8 /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		74ABBBF0221A3155003BADEB /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
 		74ABBBF2221A33AB003BADEB /* Boulder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boulder.h; sourceTree = "<group>"; };
 		74ABBBF3221A33AB003BADEB /* Boulder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boulder.m; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				74ABBBF5221A36B1003BADEB /* boulder.png */,
 				74F93217220DAD93008FF639 /* AppDelegate.h */,
 				74F93218220DAD93008FF639 /* AppDelegate.m */,
+				7403E356221A3F080048F0D8 /* SplashViewController.h */,
+				7403E357221A3F080048F0D8 /* SplashViewController.m */,
 				74F9321A220DAD93008FF639 /* ViewController.h */,
 				74F9321B220DAD93008FF639 /* ViewController.m */,
 				74F9322D220DADAA008FF639 /* GameView.h */,
@@ -168,6 +173,7 @@
 				74F9322F220DADAA008FF639 /* GameView.m in Sources */,
 				74ABBBF4221A33AB003BADEB /* Boulder.m in Sources */,
 				74F93219220DAD93008FF639 /* AppDelegate.m in Sources */,
+				7403E358221A3F080048F0D8 /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
