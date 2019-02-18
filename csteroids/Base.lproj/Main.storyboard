@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PLB-bc-AFR">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,40 +15,52 @@
             <objects>
                 <viewController id="PLB-bc-AFR" customClass="SplashViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EYa-RM-nte">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PIA03519_hires.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K8F-aG-SCK">
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je0-xM-gHa">
                                 <rect key="frame" x="164" y="179" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="5MZ-bw-TwY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K8F-aG-SCK" firstAttribute="leading" secondItem="aFs-ta-lbT" secondAttribute="leading" id="NSb-iu-xAY"/>
+                            <constraint firstItem="K8F-aG-SCK" firstAttribute="top" secondItem="aFs-ta-lbT" secondAttribute="top" id="PNb-rb-UCI"/>
+                            <constraint firstItem="aFs-ta-lbT" firstAttribute="trailing" secondItem="K8F-aG-SCK" secondAttribute="trailing" id="XnR-5V-pj2"/>
+                            <constraint firstItem="aFs-ta-lbT" firstAttribute="bottom" secondItem="K8F-aG-SCK" secondAttribute="bottom" id="jOm-1D-tqb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aFs-ta-lbT"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oUj-Q2-11K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-938.39999999999998" y="143.47826086956522"/>
+            <point key="canvasLocation" x="-939.375" y="142.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFk-9f-DrF" customClass="GameView">
-                                <rect key="frame" x="0.0" y="20" width="375" height="601"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="414"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" tag="-5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-uM-Rew">
-                                <rect key="frame" x="24" y="629" width="45" height="30"/>
+                                <rect key="frame" x="24" y="442" width="45" height="30"/>
                                 <state key="normal" title="Rotate"/>
                                 <connections>
                                     <action selector="rotate:" destination="JFk-9f-DrF" eventType="touchDown" id="o6Q-iQ-N6d"/>
@@ -57,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nh-as-I6m">
-                                <rect key="frame" x="307" y="629" width="45" height="30"/>
+                                <rect key="frame" x="252" y="442" width="45" height="30"/>
                                 <state key="normal" title="Rotate"/>
                                 <connections>
                                     <action selector="rotate:" destination="JFk-9f-DrF" eventType="touchDown" id="Fhx-Re-oqj"/>
@@ -66,17 +78,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeN-lu-4x3">
-                                <rect key="frame" x="165" y="629" width="45" height="30"/>
+                                <rect key="frame" x="137.5" y="442" width="45" height="30"/>
                                 <state key="normal" title="Thrust"/>
                                 <connections>
                                     <action selector="thrust:" destination="JFk-9f-DrF" eventType="touchDown" id="vdc-3e-cut"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZa-nT-mIJ">
-                                <rect key="frame" x="250" y="629" width="30" height="30"/>
+                                <rect key="frame" x="195" y="442" width="30" height="30"/>
                                 <state key="normal" title="Exit"/>
                                 <connections>
-                                    <segue destination="Yir-eT-oLv" kind="unwind" unwindAction="backToFirstVC:" id="Ob0-wX-7ZM"/>
+                                    <segue destination="Yir-eT-oLv" kind="unwind" unwindAction="backToFirstVC:" id="8DS-BV-Lhg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,4 +116,7 @@
             <point key="canvasLocation" x="132" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PIA03519_hires.jpg" width="1394" height="1024"/>
+    </resources>
 </document>
