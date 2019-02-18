@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74ABBBF1221A3155003BADEB /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 74ABBBF0221A3155003BADEB /* ship.png */; };
+		74ABBBF4221A33AB003BADEB /* Boulder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ABBBF3221A33AB003BADEB /* Boulder.m */; };
+		74ABBBF6221A36B1003BADEB /* boulder.png in Resources */ = {isa = PBXBuildFile; fileRef = 74ABBBF5221A36B1003BADEB /* boulder.png */; };
 		74F93219220DAD93008FF639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F93218220DAD93008FF639 /* AppDelegate.m */; };
 		74F9321C220DAD93008FF639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F9321B220DAD93008FF639 /* ViewController.m */; };
 		74F9321F220DAD93008FF639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F9321D220DAD93008FF639 /* Main.storyboard */; };
@@ -18,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74ABBBF0221A3155003BADEB /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		74ABBBF2221A33AB003BADEB /* Boulder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boulder.h; sourceTree = "<group>"; };
+		74ABBBF3221A33AB003BADEB /* Boulder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boulder.m; sourceTree = "<group>"; };
+		74ABBBF5221A36B1003BADEB /* boulder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulder.png; sourceTree = "<group>"; };
 		74F93214220DAD93008FF639 /* csteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = csteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F93217220DAD93008FF639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74F93218220DAD93008FF639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,13 +70,17 @@
 		74F93216220DAD93008FF639 /* csteroids */ = {
 			isa = PBXGroup;
 			children = (
+				74ABBBF0221A3155003BADEB /* ship.png */,
 				74F93230220DC003008FF639 /* spaceship.png */,
+				74ABBBF5221A36B1003BADEB /* boulder.png */,
 				74F93217220DAD93008FF639 /* AppDelegate.h */,
 				74F93218220DAD93008FF639 /* AppDelegate.m */,
 				74F9321A220DAD93008FF639 /* ViewController.h */,
 				74F9321B220DAD93008FF639 /* ViewController.m */,
 				74F9322D220DADAA008FF639 /* GameView.h */,
 				74F9322E220DADAA008FF639 /* GameView.m */,
+				74ABBBF2221A33AB003BADEB /* Boulder.h */,
+				74ABBBF3221A33AB003BADEB /* Boulder.m */,
 				74F9321D220DAD93008FF639 /* Main.storyboard */,
 				74F93220220DAD94008FF639 /* Assets.xcassets */,
 				74F93222220DAD94008FF639 /* LaunchScreen.storyboard */,
@@ -137,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F93231220DC003008FF639 /* spaceship.png in Resources */,
+				74ABBBF1221A3155003BADEB /* ship.png in Resources */,
 				74F93224220DAD94008FF639 /* LaunchScreen.storyboard in Resources */,
+				74ABBBF6221A36B1003BADEB /* boulder.png in Resources */,
 				74F93221220DAD94008FF639 /* Assets.xcassets in Resources */,
 				74F9321F220DAD93008FF639 /* Main.storyboard in Resources */,
 			);
@@ -153,6 +166,7 @@
 				74F9321C220DAD93008FF639 /* ViewController.m in Sources */,
 				74F93227220DAD94008FF639 /* main.m in Sources */,
 				74F9322F220DADAA008FF639 /* GameView.m in Sources */,
+				74ABBBF4221A33AB003BADEB /* Boulder.m in Sources */,
 				74F93219220DAD93008FF639 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

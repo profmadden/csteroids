@@ -64,14 +64,18 @@
                                 <rect key="frame" x="24" y="629" width="45" height="30"/>
                                 <state key="normal" title="Rotate"/>
                                 <connections>
-                                    <action selector="rotate:" destination="JFk-9f-DrF" eventType="touchDown" id="krl-rg-YHY"/>
+                                    <action selector="rotate:" destination="JFk-9f-DrF" eventType="touchDown" id="o6Q-iQ-N6d"/>
+                                    <action selector="rotateEnd:" destination="JFk-9f-DrF" eventType="touchUpInside" id="VXV-wg-bqW"/>
+                                    <action selector="rotateEnd:" destination="JFk-9f-DrF" eventType="touchUpOutside" id="tYl-ss-RUG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nh-as-I6m">
                                 <rect key="frame" x="307" y="629" width="45" height="30"/>
                                 <state key="normal" title="Rotate"/>
                                 <connections>
-                                    <action selector="rotate:" destination="JFk-9f-DrF" eventType="touchDown" id="HrW-Sp-JJp"/>
+                                    <action selector="rotate:" destination="JFk-9f-DrF" eventType="touchDown" id="Fhx-Re-oqj"/>
+                                    <action selector="rotateEnd:" destination="JFk-9f-DrF" eventType="touchUpOutside" id="Ni4-Ht-T9X"/>
+                                    <action selector="rotateEnd:" destination="JFk-9f-DrF" eventType="touchUpInside" id="jvv-gk-ohP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeN-lu-4x3">
